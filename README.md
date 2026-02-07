@@ -28,18 +28,22 @@ El analizador rastrea indicadores de compromiso comunes, dividiendolos por sever
 # 📖 Instrucciones de Uso
 
     Clona el repositorio:
-    Bash
-
     git clone https://github.com/tu-usuario/Log-Analyzer.git
 
     Instala las dependencias:
-    Bash
-
     pip install fpdf
 
-    Genera logs de prueba o coloca tu archivo logs.txt en la raíz.
-
+    Genera logs de prueba con:
+    Python generador.py 
+    o coloca tu archivo .txt en la raíz.
+    
     Ejecuta el análisis:
-    Bash
-
     python main.py
+
+    El pdf se vera reflejado en la carpeta donde hayas instalado el programa!
+
+
+# 🤝 Contribuciones y Contacto
+¡Gracias por leerme! Este es uno de mis primeros proyectos, así que si el programa te sirve, te resulta interesante o tenés alguna idea para mejorarlo, sentite libre de clonarlo y probarlo!
+
+Si te gustó, dale una ⭐ al repositorio, que sin duda ayuda.
