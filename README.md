@@ -52,8 +52,10 @@ El analizador rastrea indicadores de compromiso comunes, dividiendolos por sever
     ==================================================
 
     C:\Users\xxxxxxxx\Desktop\Log-Analyzer>
-# PDF
+
  <img width="780" height="875" alt="imagen" src="https://github.com/user-attachments/assets/3972e648-fc7d-4bba-9296-6af1899d6d8b" />
+ 
+ Este es un ejemplo de lo que veriamos luego en nuestro pdf, dependiendo la cantidad de eventos y alertas que se detecten puede tener mas o menos paginas
 
 # 🤝 Contribuciones y Contacto
 ¡Gracias por leerme! Este es uno de mis primeros proyectos, así que si el programa te sirve, te resulta interesante o tenés alguna idea para mejorarlo, sentite libre de clonarlo y probarlo!
