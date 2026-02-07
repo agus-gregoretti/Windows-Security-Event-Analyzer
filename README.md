@@ -25,23 +25,35 @@ El analizador rastrea indicadores de compromiso comunes, dividiendolos por sever
 
     generador.py: Codigo que da un .txt aleatorio con logs para probar el programa.
 
-# 📖 Instrucciones de Uso
+# 📖 Dependencias
 
-    Clona el repositorio:
+    repositorio:
     git clone https://github.com/tu-usuario/Log-Analyzer.git
-
-    Instala las dependencias:
+    dependencias:
     pip install fpdf
-
     Genera logs de prueba con:
     Python generador.py 
     o coloca tu archivo .txt en la raíz.
-    
-    Ejecuta el análisis:
-    python main.py
 
-    El pdf se vera reflejado en la carpeta donde hayas instalado el programa!
+# 💻 Ejemplo de Uso y Salida:
+    C:\Users\xxxxxxxx\Desktop\Log-Analyzer>python main.py
+    Introduce el nombre del archivo a analizar (formato = .txt): logs.txt
+    ==================================================
+    ANALISIS DE VULNERABILIDADES - INICIO
+    ==================================================
+    [*] Analizando eventos de seguridad en: logs.txt...
+    [*] Analisis completado. Total lineas: 5001
+    [*] Amenazas encontradas: 214
+    [*] Generando reporte PDF...
 
+    [OK] Reporte generado con exito: Reporte_Analisis_Logs.pdf
+    ==================================================
+    PROCESO FINALIZADO CON EXITO
+    ==================================================
+
+    C:\Users\xxxxxxxx\Desktop\Log-Analyzer>
+# PDF
+ <img width="780" height="875" alt="imagen" src="https://github.com/user-attachments/assets/3972e648-fc7d-4bba-9296-6af1899d6d8b" />
 
 # 🤝 Contribuciones y Contacto
 ¡Gracias por leerme! Este es uno de mis primeros proyectos, así que si el programa te sirve, te resulta interesante o tenés alguna idea para mejorarlo, sentite libre de clonarlo y probarlo!
