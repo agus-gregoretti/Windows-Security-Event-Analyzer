@@ -1,7 +1,7 @@
 # 🛡️ Windows-Security-Event-Analyzer
 WSEA es un programa creado en Python para el análisis de logs de Windows, hecho para mostrar Indicadores de Compromiso (IoC) comunes. Procesa archivos .txt exportados del Visor de Eventos de Windows y genera reportes en PDF con niveles de severidad.
 
-🚀 Capacidades de Detección
+# 🚀 Capacidades de Detección
 
 El analizador rastrea los 20 eventos más críticos, incluyendo:
 
@@ -15,7 +15,7 @@ El analizador rastrea los 20 eventos más críticos, incluyendo:
 
     Ejecución Sospechosa: Comandos de PowerShell, vssadmin (Ransomware) y herramientas de hacking.
 
-🛠️ Estructura del Proyecto
+# 🛠️ Estructura del Proyecto
 
     main.py: Orquestador principal del flujo de trabajo.
 
@@ -23,9 +23,9 @@ El analizador rastrea los 20 eventos más críticos, incluyendo:
 
     reporte_pdf.py: Generador de informes visuales con clasificación por colores (Crítico, Alto, Medio).
 
-    Creador.py: Simulador estocástico de logs para pruebas de estrés y validación de alertas.
+    generador.py: Simulador estocástico de logs para pruebas de estrés y validación de alertas.
 
-📖 Instrucciones de Uso
+# 📖 Instrucciones de Uso
 
     Clona el repositorio:
     Bash
