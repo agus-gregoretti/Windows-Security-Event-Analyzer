@@ -3,13 +3,13 @@ WSEA es un programa creado en Python para el análisis de logs de Windows, hecho
 
 # 🚀 Capacidades de Detección
 
-El analizador rastrea los 20 eventos más críticos, incluyendo:
+El analizador rastrea indicadores de compromiso comunes, dividiendolos por severidad, incluyendo:
 
     Persistencia: Creación de servicios (4697) y tareas programadas (4698).
 
     Evasión de Defensas: Borrado de logs de auditoría (1102) y desactivación de Firewall (5025).
 
-    Escalación de Privilegios: Adición de usuarios a grupos administrativos (4732/4728).
+    Escalada de Privilegios: Adición de usuarios a grupos administrativos (4732/4728).
 
     Fuerza Bruta: Monitoreo de fallos de inicio de sesión masivos (4625).
 
@@ -17,13 +17,13 @@ El analizador rastrea los 20 eventos más críticos, incluyendo:
 
 # 🛠️ Estructura del Proyecto
 
-    main.py: Orquestador principal del flujo de trabajo.
+    main.py: Orquestador principal del programa.
 
     analizador.py: Motor de lógica de seguridad y filtrado de ruido.
 
-    reporte_pdf.py: Generador de informes visuales con clasificación por colores (Crítico, Alto, Medio).
+    reporte_pdf.py: Generador de informes visuales con clasificación (Crítico, Alto, Medio).
 
-    generador.py: Simulador estocástico de logs para pruebas de estrés y validación de alertas.
+    generador.py: Codigo que da un .txt aleatorio con logs para probar el programa.
 
 # 📖 Instrucciones de Uso
 
